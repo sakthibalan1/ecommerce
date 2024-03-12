@@ -16,7 +16,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', // Enter your MySQL password here
-  database: 'ecommercedb' // Make sure this matches your database name
+  database: 'ecom' // Make sure this matches your database name
 });
 
 // Connect to MySQL

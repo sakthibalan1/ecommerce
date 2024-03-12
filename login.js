@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         axios.post(loginUrl, data)
         .then(function(response) {
             console.log('Login successful:', response.data);
+
             window.location.href = 'home.html';
         })
         .catch(function(error) {
